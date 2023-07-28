@@ -28,6 +28,16 @@ public class LeadController {
 	public String createView() {
 		return "create_lead";
 	}
+
+	@RequestMapping("/create")
+	public String createView() {
+		return "create_lead";
+	}
+
+	@RequestMapping("/create")
+	public String createView() {
+		return "create_lead";
+	}
 	
 	@RequestMapping("/saveLead")
 	public String saveLead(@ModelAttribute("l") Lead lead,Model model) {
